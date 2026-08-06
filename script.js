@@ -27,7 +27,7 @@ document.getElementById('quoteForm').addEventListener('submit',e=>{
   const data=new FormData(e.currentTarget);
   const subject=encodeURIComponent('Solar Panel Cleaning Quote Request');
   const body=encodeURIComponent(`Name: ${data.get('name')}\nPhone: ${data.get('phone')}\nEmail: ${data.get('email')}\nNumber of panels: ${data.get('panels')}\nService address: ${data.get('address')}\n\nDetails:\n${data.get('details')||'None provided'}`);
-  window.location.href=`mailto:info@patriotsolutions.com?subject=${subject}&body=${body}`;
+  window.location.href=`mailto:info@pss-solar.net?subject=${subject}&body=${body}`;
 });
 
 document.getElementById('year').textContent=new Date().getFullYear();
