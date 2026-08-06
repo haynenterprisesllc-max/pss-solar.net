@@ -1,4 +1,4 @@
-PATRIOT SOLAR SOLUTIONS WEBSITE
+PATRIOT SOLAR SOLUTIONS WEBSITE — JOBBER BOOKING VERSION
 
 Files:
 - index.html
@@ -6,23 +6,21 @@ Files:
 - script.js
 - assets/
 
-To preview locally, open index.html in a web browser.
+Publishing:
+Upload all files and the complete assets folder to the root of the GitHub repository connected to Cloudflare. Commit the changes and Cloudflare should redeploy automatically.
 
-To publish, upload all files and the assets folder to your web host, GitHub Pages, or Cloudflare Pages.
-
-Contact information used:
+Business details:
 Phone: (714) 501-1719
 Email: info@pss-solar.net
 Website: PSS-Solar.net
+Hours: Sunday–Saturday, by appointment
 
-Pricing used:
+Pricing:
 $249 for up to 25 panels
 $10 per additional panel above 25
 
-The quote form currently opens the visitor's email application. A server-side form handler can be added later for direct submissions.
+Online booking and quotes:
+All quote and scheduling buttons now open the Jobber Client Hub:
+https://clienthub.getjobber.com/client_hubs/665ac233-8cda-4c16-b2c7-96ea1496e8bc/login/new?source=share_login
 
-Business hours:
-Sunday–Saturday, by appointment
-
-Water system:
-RO/DI (Reverse Osmosis/Deionized) purified water is used for cleaning.
+The previous email-app quote form has been removed.

@@ -28,7 +28,7 @@
       </nav>
       <div class="header-cta">
         <a class="phone" href="tel:+17145011719">(714) 501-1719</a>
-        <button class="btn btn-red quote-open">Get a Free Quote</button>
+        <a class="btn btn-red" href="https://clienthub.getjobber.com/client_hubs/665ac233-8cda-4c16-b2c7-96ea1496e8bc/login/new?source=share_login" target="_blank" rel="noopener">Schedule &amp; Get a Quote</a>
       </div>
     </div>
   </header>
@@ -42,7 +42,7 @@
           <h1>Dirty panels.<br>Lost power.<br><span>Lost money.</span></h1>
           <p class="hero-text">Dust, dirt, pollen, bird droppings, and buildup can block sunlight and reduce solar production. Keep your panels clean so your system can work more efficiently.</p>
           <div class="hero-actions">
-            <button class="btn btn-red quote-open">Schedule Your Cleaning</button>
+            <a class="btn btn-red" href="https://clienthub.getjobber.com/client_hubs/665ac233-8cda-4c16-b2c7-96ea1496e8bc/login/new?source=share_login" target="_blank" rel="noopener">Schedule Online</a>
             <a class="btn btn-outline" href="#pricing">View Pricing</a>
           </div>
           <div class="trust-row">
@@ -56,7 +56,7 @@
           <strong>$249</strong>
           <p>Up to 25 panels</p>
           <small>$10 for each additional panel above 25</small>
-          <button class="btn btn-gold quote-open">Claim the Special</button>
+          <a class="btn btn-gold" href="https://clienthub.getjobber.com/client_hubs/665ac233-8cda-4c16-b2c7-96ea1496e8bc/login/new?source=share_login" target="_blank" rel="noopener">Book This Special</a>
         </div>
       </div>
     </section>
@@ -80,7 +80,7 @@
               <li>Residential systems</li>
               <li>No contract required</li>
             </ul>
-            <button class="btn btn-red quote-open">Get My Quote</button>
+            <a class="btn btn-red" href="https://clienthub.getjobber.com/client_hubs/665ac233-8cda-4c16-b2c7-96ea1496e8bc/login/new?source=share_login" target="_blank" rel="noopener">Get My Quote</a>
           </article>
           <article class="price-card calculator-card">
             <p class="eyebrow red">Quick estimate</p>
@@ -127,7 +127,7 @@
           <h2>Dust and grime do not belong between your panels and the sun.</h2>
           <p>Southern California panels are exposed to airborne dust, pollen, coastal residue, bird droppings, and dry-weather buildup. Our service is focused on safely removing that surface contamination.</p>
           <div class="notice"><strong>Performance note:</strong> Actual energy gains vary by system, panel condition, weather, shading, equipment, and the type and amount of buildup. We do not guarantee a specific increase in power production or utility savings.</div>
-          <button class="btn btn-red quote-open">Request an Estimate</button>
+          <a class="btn btn-red" href="https://clienthub.getjobber.com/client_hubs/665ac233-8cda-4c16-b2c7-96ea1496e8bc/login/new?source=share_login" target="_blank" rel="noopener">Request an Estimate</a>
         </div>
       </div>
     </section>
@@ -157,10 +157,23 @@
       </div>
     </section>
 
+
+    <section class="booking-section section" id="booking">
+      <div class="container booking-card">
+        <div>
+          <p class="eyebrow gold">Fast online scheduling</p>
+          <h2>Schedule Online in Minutes</h2>
+          <p>Use our secure Jobber Client Hub to request a quote, choose an available appointment, and manage your service online.</p>
+          <div class="booking-points"><span>✓ Request a quote</span><span>✓ Choose an appointment</span><span>✓ Manage service online</span></div>
+        </div>
+        <a class="btn btn-gold booking-button" href="https://clienthub.getjobber.com/client_hubs/665ac233-8cda-4c16-b2c7-96ea1496e8bc/login/new?source=share_login" target="_blank" rel="noopener">Schedule &amp; Get a Quote</a>
+      </div>
+    </section>
+
     <section id="contact" class="cta-section">
       <div class="container cta-inner">
         <div><p class="eyebrow gold">Ready for cleaner panels?</p><h2>Request your free quote today.</h2><p>Call, email, or send us your panel count and service address.</p></div>
-        <div class="cta-buttons"><a class="btn btn-red" href="tel:+17145011719">Call (714) 501-1719</a><button class="btn btn-light quote-open">Request Online</button></div>
+        <div class="cta-buttons"><a class="btn btn-red" href="tel:+17145011719">Call (714) 501-1719</a><a class="btn btn-light" href="https://clienthub.getjobber.com/client_hubs/665ac233-8cda-4c16-b2c7-96ea1496e8bc/login/new?source=share_login" target="_blank" rel="noopener">Schedule Online</a></div>
       </div>
     </section>
   </main>
@@ -175,26 +188,7 @@
     <div class="container footer-bottom"><span>© <span id="year"></span> Patriot Solar Solutions. All rights reserved.</span><span>Veteran owned and operated.</span></div>
   </footer>
 
-  <div class="modal" id="quoteModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="quoteTitle">
-    <div class="modal-backdrop quote-close"></div>
-    <div class="modal-panel">
-      <button class="modal-x quote-close" aria-label="Close quote form">×</button>
-      <p class="eyebrow red">Free estimate</p>
-      <h2 id="quoteTitle">Request a Solar Cleaning Quote</h2>
-      <form id="quoteForm">
-        <div class="form-grid">
-          <label>Full name<input name="name" required autocomplete="name"></label>
-          <label>Phone<input name="phone" required autocomplete="tel"></label>
-          <label>Email<input name="email" type="email" required autocomplete="email"></label>
-          <label>Number of panels<input name="panels" type="number" min="1" required></label>
-          <label class="full">Service address<input name="address" required autocomplete="street-address"></label>
-          <label class="full">Anything we should know?<textarea name="details" rows="4" placeholder="Roof type, access concerns, heavy buildup, preferred date, etc."></textarea></label>
-        </div>
-        <p class="form-note">Submitting opens your email app with the request addressed to info@pss-solar.net.</p>
-        <button class="btn btn-red full-btn" type="submit">Send Quote Request</button>
-      </form>
-    </div>
-  </div>
+  <a class="sticky-book" href="https://clienthub.getjobber.com/client_hubs/665ac233-8cda-4c16-b2c7-96ea1496e8bc/login/new?source=share_login" target="_blank" rel="noopener" aria-label="Schedule online and get a quote">📅 Schedule Online</a>
 
   <script src="script.js"></script>
 </body>
