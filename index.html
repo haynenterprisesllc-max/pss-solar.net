@@ -1,195 +1,174 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Patriot Solar Solutions provides professional solar panel cleaning throughout Orange County and Los Angeles County. Specials start at $249 for up to 25 panels." />
-  <title>Patriot Solar Solutions | Solar Panel Cleaning</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
-</head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Patriot Solar Solutions provides professional solar panel cleaning throughout Orange County and Los Angeles County. Specials start at $249 for up to 25 panels." name="description"/>
+<title>Patriot Solar Solutions | Solar Panel Cleaning</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&amp;family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="styles.css" rel="stylesheet">
+</link></head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="#home" aria-label="Patriot Solar Solutions home">
-        <img src="assets/patriot-solar-logo.jpg" alt="Patriot Solar Solutions logo" />
-        <span><strong>Patriot</strong><em>Solar Solutions</em></span>
-      </a>
-      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
-      <nav class="main-nav" aria-label="Primary navigation">
-        <a href="#home">Home</a>
-        <a href="#service">Our Service</a>
-        <a href="#pricing">Pricing</a>
-        <a href="#about">About</a>
-        <a href="#faq">FAQs</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <div class="header-cta">
-        <a class="phone" href="tel:+17145011719">(714) 501-1719</a>
-        <a class="btn btn-red" href="https://clienthub.getjobber.com/client_hubs/665ac233-8cda-4c16-b2c7-96ea1496e8bc/login/new?source=share_login" target="_blank" rel="noopener">Schedule &amp; Get a Quote</a>
-      </div>
-    </div>
-  </header>
-
-  <main>
-    <section id="home" class="hero">
-      <div class="hero-overlay"></div>
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">Professional Solar Panel Cleaning</p>
-          <h1>Dirty panels.<br>Lost power.<br><span>Lost money.</span></h1>
-          <p class="hero-text">Dust, dirt, pollen, bird droppings, and buildup can block sunlight and reduce solar production. Keep your panels clean so your system can work more efficiently.</p>
-          <div class="hero-actions">
-            <a class="btn btn-red" href="https://clienthub.getjobber.com/client_hubs/665ac233-8cda-4c16-b2c7-96ea1496e8bc/login/new?source=share_login" target="_blank" rel="noopener">Schedule Online</a>
-            <a class="btn btn-outline" href="#pricing">View Pricing</a>
-          </div>
-          <div class="trust-row">
-            <span>✓ Licensed &amp; Insured</span>
-            <span>★ Veteran Owned</span>
-            <span>⌂ Local &amp; Reliable</span>
-          </div>
-        </div>
-        <div class="hero-card">
-          <span class="mini">Special starting at</span>
-          <strong>$249</strong>
-          <p>Up to 25 panels</p>
-          <small>$10 for each additional panel above 25</small>
-          <a class="btn btn-gold" href="https://clienthub.getjobber.com/client_hubs/665ac233-8cda-4c16-b2c7-96ea1496e8bc/login/new?source=share_login" target="_blank" rel="noopener">Book This Special</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="pricing" class="pricing section">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow red">Fair. Simple. Transparent.</p>
-          <h2>Residential Solar Cleaning Pricing</h2>
-          <p>No complicated packages. Tell us how many panels you have and we will give you a clear estimate.</p>
-        </div>
-        <div class="pricing-grid">
-          <article class="price-card featured">
-            <div class="ribbon">Current Special</div>
-            <p>Up to</p>
-            <div class="panel-count">25 Panels</div>
-            <div class="price">$249</div>
-            <ul>
-              <li>Professional exterior panel cleaning</li>
-              <li>RO/DI purified-water rinse</li>
-              <li>Residential systems</li>
-              <li>No contract required</li>
-            </ul>
-            <a class="btn btn-red" href="https://clienthub.getjobber.com/client_hubs/665ac233-8cda-4c16-b2c7-96ea1496e8bc/login/new?source=share_login" target="_blank" rel="noopener">Get My Quote</a>
-          </article>
-          <article class="price-card calculator-card">
-            <p class="eyebrow red">Quick estimate</p>
-            <h3>More than 25 panels?</h3>
-            <p>Each additional panel above 25 is <strong>$10</strong>.</p>
-            <label for="panelInput">Number of panels</label>
-            <div class="calc-row">
-              <input id="panelInput" type="number" min="1" max="500" value="25" />
-              <button id="calcButton" class="btn btn-navy">Calculate</button>
-            </div>
-            <div class="estimate" aria-live="polite">
-              <span>Estimated starting price</span>
-              <strong id="estimatePrice">$249</strong>
-            </div>
-            <small>Final pricing may vary based on access, roof pitch, panel condition, water availability, and unusual site conditions.</small>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="service" class="benefits section dark-section">
-      <div class="container">
-        <div class="section-heading light">
-          <p class="eyebrow gold">Why clean solar panels?</p>
-          <h2>Help Your System Capture More Sunlight</h2>
-          <p>Cleaning removes surface buildup that can shade the panel and interfere with solar production.</p>
-        </div>
-        <div class="benefit-grid">
-          <article><span>↗</span><h3>Support Performance</h3><p>Cleaner panel surfaces allow more sunlight to reach the solar cells.</p></article>
-          <article><span>$</span><h3>Protect Your Savings</h3><p>Reduced production can mean you purchase more electricity from your utility.</p></article>
-          <article><span>☀</span><h3>Remove Buildup</h3><p>We address common dust, pollen, residue, and bird-related buildup.</p></article>
-          <article><span>✓</span><h3>Professional Service</h3><p>Careful methods, RO/DI purified water, and equipment intended for solar-panel cleaning.</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="comparison section">
-      <div class="container comparison-grid">
-        <div class="comparison-image">
-          <img src="assets/before-after.jpg" alt="Example comparison of dirty and clean solar panels" />
-        </div>
-        <div class="comparison-copy">
-          <p class="eyebrow red">A visible difference</p>
-          <h2>Dust and grime do not belong between your panels and the sun.</h2>
-          <p>Southern California panels are exposed to airborne dust, pollen, coastal residue, bird droppings, and dry-weather buildup. Our service is focused on safely removing that surface contamination.</p>
-          <div class="notice"><strong>Performance note:</strong> Actual energy gains vary by system, panel condition, weather, shading, equipment, and the type and amount of buildup. We do not guarantee a specific increase in power production or utility savings.</div>
-          <a class="btn btn-red" href="https://clienthub.getjobber.com/client_hubs/665ac233-8cda-4c16-b2c7-96ea1496e8bc/login/new?source=share_login" target="_blank" rel="noopener">Request an Estimate</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="about section">
-      <div class="container about-grid">
-        <div class="about-photo"><img src="assets/service-truck.jpg" alt="Patriot Solar Solutions service vehicle concept" /></div>
-        <div class="about-copy">
-          <p class="eyebrow red">Veteran owned and operated</p>
-          <h2>Built on integrity. Committed to dependable service.</h2>
-          <p>Patriot Solar Solutions was created to help Southern California homeowners maintain cleaner solar panels through straightforward pricing, careful work, and reliable customer service.</p>
-          <p>We treat your home and solar system with respect, communicate clearly, and arrive prepared to do the job right.</p>
-          <div class="check-grid">
-            <span>✓ Local business</span><span>✓ Clear pricing</span><span>✓ Insured service</span><span>✓ Customer focused</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="faq" class="faq section">
-      <div class="container narrow">
-        <div class="section-heading"><p class="eyebrow red">Questions</p><h2>Frequently Asked Questions</h2></div>
-        <details><summary>What does the $249 special include?</summary><p>The special covers professional exterior cleaning of up to 25 residential solar panels under ordinary access and site conditions. Additional panels are $10 each above 25.</p></details>
-        <details><summary>Do you use RO/DI purified water?</summary><p>Yes. We use RO/DI (Reverse Osmosis/Deionized) water for cleaning solar panels. This helps minimize mineral spotting and residue while providing a spot-free rinse without harsh chemicals.</p></details>
-        <details><summary>Can you guarantee lower electric bills?</summary><p>No. Cleaning removes surface buildup, but production and bills depend on many factors, including weather, system design, shading, equipment condition, utility rates, and household energy use.</p></details>
-        <details><summary>Do you service both Orange and Los Angeles Counties?</summary><p>Yes. We serve Orange County, Los Angeles County, and selected surrounding communities. Travel or access charges may apply outside our normal service area.</p></details>
-      </div>
-    </section>
-
-
-    <section class="booking-section section" id="booking">
-      <div class="container booking-card">
-        <div>
-          <p class="eyebrow gold">Fast online scheduling</p>
-          <h2>Schedule Online in Minutes</h2>
-          <p>Use our secure Jobber Client Hub to request a quote, choose an available appointment, and manage your service online.</p>
-          <div class="booking-points"><span>✓ Request a quote</span><span>✓ Choose an appointment</span><span>✓ Manage service online</span></div>
-        </div>
-        <a class="btn btn-gold booking-button" href="https://clienthub.getjobber.com/client_hubs/665ac233-8cda-4c16-b2c7-96ea1496e8bc/login/new?source=share_login" target="_blank" rel="noopener">Schedule &amp; Get a Quote</a>
-      </div>
-    </section>
-
-    <section id="contact" class="cta-section">
-      <div class="container cta-inner">
-        <div><p class="eyebrow gold">Ready for cleaner panels?</p><h2>Request your free quote today.</h2><p>Call, email, or send us your panel count and service address.</p></div>
-        <div class="cta-buttons"><a class="btn btn-red" href="tel:+17145011719">Call (714) 501-1719</a><a class="btn btn-light" href="https://clienthub.getjobber.com/client_hubs/665ac233-8cda-4c16-b2c7-96ea1496e8bc/login/new?source=share_login" target="_blank" rel="noopener">Schedule Online</a></div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div><h3>Patriot Solar Solutions</h3><p>Clean panels. More power. Better future.</p></div>
-      <div><h4>Contact</h4><a href="tel:+17145011719">(714) 501-1719</a><a href="mailto:info@pss-solar.net">info@pss-solar.net</a><a href="https://PSS-Solar.net">PSS-Solar.net</a></div>
-      <div><h4>Service Area</h4><p>Orange County<br>Los Angeles County<br>Surrounding areas</p></div>
-      <div><h4>Hours</h4><p>Sunday–Saturday<br>By appointment</p></div>
-    </div>
-    <div class="container footer-bottom"><span>© <span id="year"></span> Patriot Solar Solutions. All rights reserved.</span><span>Veteran owned and operated.</span></div>
-  </footer>
-
-  <a class="sticky-book" href="https://clienthub.getjobber.com/client_hubs/665ac233-8cda-4c16-b2c7-96ea1496e8bc/login/new?source=share_login" target="_blank" rel="noopener" aria-label="Schedule online and get a quote">📅 Schedule Online</a>
-
-  <script src="script.js"></script>
+<header class="site-header">
+<div class="container header-inner">
+<a aria-label="Patriot Solar Solutions home" class="brand" href="#home">
+<img alt="Patriot Solar Solutions logo" src="assets/patriot-solar-logo.jpg"/>
+<span><strong>Patriot</strong><em>Solar Solutions</em></span>
+</a>
+<button aria-expanded="false" aria-label="Open navigation" class="menu-toggle">☰</button>
+<nav aria-label="Primary navigation" class="main-nav">
+<a href="#home">Home</a>
+<a href="#service">Our Service</a>
+<a href="#pricing">Pricing</a>
+<a href="#about">About</a>
+<a href="#faq">FAQs</a>
+<a href="#contact">Contact</a>
+</nav>
+<div class="header-cta">
+<a class="phone" href="tel:+17145011719">(714) 501-1719</a>
+<a class="btn btn-red" href="#booking" rel="noopener" target="_blank">Schedule &amp; Get a Quote</a>
+</div>
+</div>
+</header>
+<main>
+<section class="hero" id="home">
+<div class="hero-overlay"></div>
+<div class="container hero-grid">
+<div class="hero-copy">
+<p class="eyebrow">Professional Solar Panel Cleaning</p>
+<h1>Dirty panels.<br/>Lost power.<br/><span>Lost money.</span></h1>
+<p class="hero-text">Dust, dirt, pollen, bird droppings, and buildup can block sunlight and reduce solar production. Keep your panels clean so your system can work more efficiently.</p>
+<div class="hero-actions">
+<a class="btn btn-red" href="#booking" rel="noopener" target="_blank">Schedule Online</a>
+<a class="btn btn-outline" href="#pricing">View Pricing</a>
+</div>
+<div class="trust-row">
+<span>✓ Licensed &amp; Insured</span>
+<span>★ Veteran Owned</span>
+<span>⌂ Local &amp; Reliable</span>
+</div>
+</div>
+<div class="hero-card">
+<span class="mini">Special starting at</span>
+<strong>$249</strong>
+<p>Up to 25 panels</p>
+<small>$10 for each additional panel above 25</small>
+<a class="btn btn-gold" href="#booking" rel="noopener" target="_blank">Book This Special</a>
+</div>
+</div>
+</section>
+<section class="pricing section" id="pricing">
+<div class="container">
+<div class="section-heading">
+<p class="eyebrow red">Fair. Simple. Transparent.</p>
+<h2>Residential Solar Cleaning Pricing</h2>
+<p>No complicated packages. Tell us how many panels you have and we will give you a clear estimate.</p>
+</div>
+<div class="pricing-grid">
+<article class="price-card featured">
+<div class="ribbon">Current Special</div>
+<p>Up to</p>
+<div class="panel-count">25 Panels</div>
+<div class="price">$249</div>
+<ul>
+<li>Professional exterior panel cleaning</li>
+<li>RO/DI purified-water rinse</li>
+<li>Residential systems</li>
+<li>No contract required</li>
+</ul>
+<a class="btn btn-red" href="#booking" rel="noopener" target="_blank">Get My Quote</a>
+</article>
+<article class="price-card calculator-card">
+<p class="eyebrow red">Quick estimate</p>
+<h3>More than 25 panels?</h3>
+<p>Each additional panel above 25 is <strong>$10</strong>.</p>
+<label for="panelInput">Number of panels</label>
+<div class="calc-row">
+<input id="panelInput" max="500" min="1" type="number" value="25"/>
+<button class="btn btn-navy" id="calcButton">Calculate</button>
+</div>
+<div aria-live="polite" class="estimate">
+<span>Estimated starting price</span>
+<strong id="estimatePrice">$249</strong>
+</div>
+<small>Final pricing may vary based on access, roof pitch, panel condition, water availability, and unusual site conditions.</small>
+</article>
+</div>
+</div>
+</section>
+<section class="benefits section dark-section" id="service">
+<div class="container">
+<div class="section-heading light">
+<p class="eyebrow gold">Why clean solar panels?</p>
+<h2>Help Your System Capture More Sunlight</h2>
+<p>Cleaning removes surface buildup that can shade the panel and interfere with solar production.</p>
+</div>
+<div class="benefit-grid">
+<article><span>↗</span><h3>Support Performance</h3><p>Cleaner panel surfaces allow more sunlight to reach the solar cells.</p></article>
+<article><span>$</span><h3>Protect Your Savings</h3><p>Reduced production can mean you purchase more electricity from your utility.</p></article>
+<article><span>☀</span><h3>Remove Buildup</h3><p>We address common dust, pollen, residue, and bird-related buildup.</p></article>
+<article><span>✓</span><h3>Professional Service</h3><p>Careful methods, RO/DI purified water, and equipment intended for solar-panel cleaning.</p></article>
+</div>
+</div>
+</section>
+<section class="comparison section">
+<div class="container comparison-grid">
+<div class="comparison-image">
+<img alt="Example comparison of dirty and clean solar panels" src="assets/before-after.jpg"/>
+</div>
+<div class="comparison-copy">
+<p class="eyebrow red">A visible difference</p>
+<h2>Dust and grime do not belong between your panels and the sun.</h2>
+<p>Southern California panels are exposed to airborne dust, pollen, coastal residue, bird droppings, and dry-weather buildup. Our service is focused on safely removing that surface contamination.</p>
+<div class="notice"><strong>Performance note:</strong> Actual energy gains vary by system, panel condition, weather, shading, equipment, and the type and amount of buildup. We do not guarantee a specific increase in power production or utility savings.</div>
+<a class="btn btn-red" href="#booking" rel="noopener" target="_blank">Request an Estimate</a>
+</div>
+</div>
+</section>
+<section class="about section" id="about">
+<div class="container about-grid">
+<div class="about-photo"><img alt="Patriot Solar Solutions service vehicle concept" src="assets/service-truck.jpg"/></div>
+<div class="about-copy">
+<p class="eyebrow red">Veteran owned and operated</p>
+<h2>Built on integrity. Committed to dependable service.</h2>
+<p>Patriot Solar Solutions was created to help Southern California homeowners maintain cleaner solar panels through straightforward pricing, careful work, and reliable customer service.</p>
+<p>We treat your home and solar system with respect, communicate clearly, and arrive prepared to do the job right.</p>
+<div class="check-grid">
+<span>✓ Local business</span><span>✓ Clear pricing</span><span>✓ Insured service</span><span>✓ Customer focused</span>
+</div>
+</div>
+</div>
+</section>
+<section class="faq section" id="faq">
+<div class="container narrow">
+<div class="section-heading"><p class="eyebrow red">Questions</p><h2>Frequently Asked Questions</h2></div>
+<details><summary>What does the $249 special include?</summary><p>The special covers professional exterior cleaning of up to 25 residential solar panels under ordinary access and site conditions. Additional panels are $10 each above 25.</p></details>
+<details><summary>Do you use RO/DI purified water?</summary><p>Yes. We use RO/DI (Reverse Osmosis/Deionized) water for cleaning solar panels. This helps minimize mineral spotting and residue while providing a spot-free rinse without harsh chemicals.</p></details>
+<details><summary>Can you guarantee lower electric bills?</summary><p>No. Cleaning removes surface buildup, but production and bills depend on many factors, including weather, system design, shading, equipment condition, utility rates, and household energy use.</p></details>
+<details><summary>Do you service both Orange and Los Angeles Counties?</summary><p>Yes. We serve Orange County, Los Angeles County, and selected surrounding communities. Travel or access charges may apply outside our normal service area.</p></details>
+</div>
+</section>
+<section class="booking-section section" id="booking"><div class="container"><h2>Schedule Online</h2><p>Request a quote or schedule your solar panel cleaning instantly.</p><div id="665ac233-8cda-4c16-b2c7-96ea1496e8bc-5061894"></div><link href="https://d3ey4dbjkt2f6s.cloudfront.net/assets/external/work_request_embed.css" media="screen" rel="stylesheet"/><script clienthub_id="665ac233-8cda-4c16-b2c7-96ea1496e8bc-5061894" form_url="https://clienthub.getjobber.com/client_hubs/665ac233-8cda-4c16-b2c7-96ea1496e8bc/public/work_request/embedded_work_request_form?form_id=5061894" src="https://d3ey4dbjkt2f6s.cloudfront.net/assets/static_link/work_request_embed_snippet.js"></script></div></section>
+<section class="cta-section" id="contact">
+<div class="container cta-inner">
+<div><p class="eyebrow gold">Ready for cleaner panels?</p><h2>Request your free quote today.</h2><p>Call, email, or send us your panel count and service address.</p></div>
+<div class="cta-buttons"><a class="btn btn-red" href="tel:+17145011719">Call (714) 501-1719</a><a class="btn btn-light" href="#booking" rel="noopener" target="_blank">Schedule Online</a></div>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<div class="container footer-grid">
+<div><h3>Patriot Solar Solutions</h3><p>Clean panels. More power. Better future.</p></div>
+<div><h4>Contact</h4><a href="tel:+17145011719">(714) 501-1719</a><a href="mailto:info@pss-solar.net">info@pss-solar.net</a><a href="https://PSS-Solar.net">PSS-Solar.net</a></div>
+<div><h4>Service Area</h4><p>Orange County<br/>Los Angeles County<br/>Surrounding areas</p></div>
+<div><h4>Hours</h4><p>Sunday–Saturday<br/>By appointment</p></div>
+</div>
+<div class="container footer-bottom"><span>© <span id="year"></span> Patriot Solar Solutions. All rights reserved.</span><span>Veteran owned and operated.</span></div>
+</footer>
+<a aria-label="Schedule online and get a quote" class="sticky-book" href="#booking" rel="noopener" target="_blank">📅 Schedule Online</a>
+<script src="script.js"></script>
 </body>
 </html>
