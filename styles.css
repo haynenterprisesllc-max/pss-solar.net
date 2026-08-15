@@ -21,3 +21,5 @@
 }
 
 .sept-special-banner{background:linear-gradient(90deg,#a9141a,#d72828);color:#fff;text-align:center;padding:10px 16px;font-weight:800;letter-spacing:.4px;border-bottom:2px solid #e8ad3f;text-transform:uppercase}
+
+.regular-price{font-size:16px;font-weight:800;text-transform:uppercase;margin:-2px 0 12px;color:#fff;opacity:.95}.regular-price.dark{color:#13213b;margin-top:-10px;margin-bottom:14px}.regular-price::first-line{text-decoration:none}
