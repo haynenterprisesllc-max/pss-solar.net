@@ -1,11 +1,9 @@
-PATRIOT SOLAR SOLUTIONS — SEPTEMBER SPECIAL
+PATRIOT SOLAR SOLUTIONS — SEPTEMBER SPECIAL V2
 
-Changes made:
-- Added a September promotional banner below the site header.
-- Changed special price from $249 to $199 for up to 25 panels.
-- Kept $10 per additional panel above 25.
-- Updated the price calculator to start at $199.
-- Updated the FAQ and meta description for the September promotion.
-- Kept the rest of the website as close to the original as possible.
-
-Upload index.html, styles.css, script.js, and the complete assets folder to the root of your GitHub repository connected to Cloudflare.
+Changes:
+- Removed the U.S./flag symbols before and after the September Special banner.
+- September special remains $199 for up to 25 panels ($50 off regular $249 price).
+- Added evidence-based performance language: NREL reports annual U.S. soiling losses up to about 7% in some areas, and an NREL-supported study measured 5%–11% performance recovery after cleaning heavily soiled panels.
+- Added clear language that actual performance gains and dollar savings vary and are not guaranteed.
+- Calculator starts at $199 and remains $10 per additional panel above 25.
+- Existing Jobber embedded scheduling form retained.
