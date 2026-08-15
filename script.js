@@ -2,7 +2,7 @@ const panelInput=document.getElementById('panelInput');
 const estimatePrice=document.getElementById('estimatePrice');
 function calculate(){
   const count=Math.max(1,parseInt(panelInput.value||'1',10));
-  const price=count<=25?249:249+(count-25)*10;
+  const price=count<=25?199:199+(count-25)*10;
   estimatePrice.textContent=new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(price);
 }
 if(panelInput&&estimatePrice){
