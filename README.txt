@@ -1,11 +1,11 @@
-PATRIOT SOLAR SOLUTIONS — LABOR DAY PRICING
+PATRIOT SOLAR SOLUTIONS — LABOR DAY NEW PRICING
 
-Regular pricing:
-- $149 for up to 15 panels
-- $10 per additional panel above 15
+Pricing:
+- Regular price: $149 for up to 15 panels.
+- Regular additional panels: $10 each above 15.
+- Labor Day Special: $25 off jobs under 25 panels.
+- Labor Day Special: $50 off jobs with 25 panels or more.
+- Examples: 15 panels = $124 special; 25 panels = $199 special.
 
-Labor Day Special:
-- $25 OFF solar panel cleaning
-- Up to 15 panels = $124 during the special
-
-The website banner, hero, pricing section, calculator, comparison section, and FAQ have been simplified to remove the separate 25+ panel discount.
+The calculator, hero pricing, pricing card, comparison overlay, FAQ, and promotional banner have all been updated.
+Upload all files and the assets folder to the root of the GitHub repository connected to Cloudflare.
