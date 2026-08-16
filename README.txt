@@ -1,9 +1,11 @@
-PATRIOT SOLAR SOLUTIONS — LABOR DAY SPECIAL V3
+PATRIOT SOLAR SOLUTIONS — LABOR DAY NEW PRICING
 
-Changes:
-- Removed the U.S./flag symbols before and after the September Special banner.
-- Promotion now reads “Labor Day Special” at $199 for up to 25 panels, clearly showing the normal $249 price and $50 savings.
-- Added evidence-based performance language: NREL reports annual U.S. soiling losses up to about 7% in some areas, and an NREL-supported study measured 5%–11% performance recovery after cleaning heavily soiled panels.
-- Added clear language that actual performance gains and dollar savings vary and are not guaranteed.
-- Calculator starts at $199 and remains $10 per additional panel above 25.
-- Existing Jobber embedded scheduling form retained.
+Pricing:
+- Regular price: $149 for up to 15 panels.
+- Regular additional panels: $10 each above 15.
+- Labor Day Special: $25 off jobs under 25 panels.
+- Labor Day Special: $50 off jobs with 25 panels or more.
+- Examples: 15 panels = $124 special; 25 panels = $199 special.
+
+The calculator, hero pricing, pricing card, comparison overlay, FAQ, and promotional banner have all been updated.
+Upload all files and the assets folder to the root of the GitHub repository connected to Cloudflare.
