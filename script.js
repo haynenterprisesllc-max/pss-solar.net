@@ -3,7 +3,7 @@ const estimatePrice=document.getElementById('estimatePrice');
 function calculate(){
   const count=Math.max(1,parseInt(panelInput.value||'1',10));
   const regular=count<=15?149:149+(count-15)*10;
-  const discount=count>=25?50:25;
+  const discount=25;
   const price=Math.max(0,regular-discount);
   estimatePrice.textContent=new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(price);
 }
